@@ -13,7 +13,7 @@ public class Livro {
         System.out.println("O livro " + this.titulo + ", escrito por " + this.autor + ", possui " + this.paginas + " páginas.");
     }
 
-    public static void main(String[] args) {
+ public static void main(String[] args) {
         Livro meuLivro = new Livro("Dom Casmurro", "Machado de Assis", 256);
 
         meuLivro.exibirDetalhes();

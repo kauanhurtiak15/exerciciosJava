@@ -38,5 +38,16 @@ public String getTitular() {
             System.out.println("Erro: Saldo insuficiente para realizar o saque.");
         }
     }
+
+    public static void main(String[] args) {
+        ContaBancaria conta = new ContaBancaria("Alex Silva", 500.00);
+        
+        conta.depositar(200.00); 
+        conta.sacar(150.00);    
+        conta.sacar(1000.00);   
+        
+        System.out.println("Saldo final: R$ " + conta.getSaldo());
+    }
 }
+
 
