@@ -9,12 +9,7 @@ public Veiculo(String marca, String modelo){
 
 public void buzinar(){ System.out.println("Bi bi!");}
 
-public static void main(String[] args) {
-        Veiculo meuCarro = new Veiculo("Toyota", "Corolla");
-
-        System.out.println("Veículo criado: " + meuCarro.marca + " " + meuCarro.modelo);
-        
-        System.out.print("Chamando a buzina: ");
-        meuCarro.buzinar();
+public static void main(String[] args) {   
+    System.out.print("Chamando a buzina: ");
     }
 }
